@@ -470,12 +470,17 @@ html {
 /* Media Query For Smartphones Only  */
 
 @media screen and (max-width:870px){
-
+	
+	.nav-bar .brand img {
+	width: 20%;
+	padding-top: 20px;
+	}	
+	
     .header{
         display: flex;
-		height: auto;
+	height: auto;
         flex-direction: column;
-		padding-top: 10%;
+	padding-top: 10%;
     }
 
     .header-info{
@@ -488,6 +493,11 @@ html {
     .header-img{
         width: 45%;
     }
+	
+	.img img{
+		width: 175px;
+		padding-top: 10%;
+	}
 }
 /* End Media query for Smartphones  */
 
